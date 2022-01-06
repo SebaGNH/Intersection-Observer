@@ -38,7 +38,7 @@ h1 {
   font-size: 18px;
   line-height: 30px;
   width: 90%;
-  min-width: 700px;
+  max-width: 700px;
   margin: auto;
   text-align: justify;
 }
@@ -55,13 +55,13 @@ h1 {
   transform: scale(0.9);
   transition: 0.7s ease-in-out all;
 }
-.contenedor img .izquierda {
+.contenedor .izquierda {
   transform: translateX(-100px);
 }
-.contenedor img .derecha {
+.contenedor .derecha {
   transform: translateY(100px);
 }
-.contenedor img .visible {
+.contenedor .visible {
   opacity: 1;
   transform: scale(1) translateX(0);
 }
