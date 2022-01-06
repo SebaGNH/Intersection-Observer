@@ -6,9 +6,9 @@
 
 body {
   background-color: #272b30;
-  color: #7d7d7d;
+  color: #ccc;
   font-family: "Roboto", sans-serif;
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, #04010e 75%), url("../img/bg.jpg");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, #04010e 75%), url("../img/imgBg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -24,7 +24,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #7d7d7d;
+  color: #ccc;
 }
 .hero h1 {
   font-size: 100px;
@@ -34,7 +34,7 @@ h1 {
 }
 
 .contenedor {
-  color: #7d7d7d;
+  color: #ccc;
   font-size: 18px;
   line-height: 30px;
   width: 90%;
